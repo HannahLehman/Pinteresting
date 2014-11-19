@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @board.name %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @board.user_id %>
+</p>
+
+<p>Pins on this Board:</p>
+	<ul>
+		<% @board.pins.each do |pin| %>
+		<li><%= pin.name %></li>
+		<% end %>
+	</ul>
+
+<%= link_to 'Edit', edit_board_path(@board) %> |
+<%= link_to 'Back', boards_path %>

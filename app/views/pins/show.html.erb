@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pin.name %>
+</p>
+
+<p>
+  <strong>Board:</strong>
+  <%= @pin.board.name %>
+</p>
+
+<%= image_tag @pin.image, {size: 100} %>
+
+<%= link_to 'Edit', edit_pin_path(@pin) %> |
+<%= link_to 'Back', pins_path %>
