@@ -13,3 +13,65 @@
  *= require_tree .
  *= require_self
  */
+ 
+body {
+    background-image: url("face.jpg"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+ }
+
+h1 {
+	text-align: left;
+ 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	font-size: 75px; : left;
+ 	color: white; 
+ }
+
+h2 {
+	text-align: left;
+ 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	font-size: 50px;
+ 	color: #2BCF78;
+ }
+
+ table {
+ /*	border-style: solid;
+ 	border-color: black;
+ 	border-right: */
+ 	width: 600px;
+ 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	color: #ffffff;
+ }
+
+ tbody {
+ 	width: 800px;
+ 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	color: #ffffff;
+ }
+
+td {
+	color: #ffffff;
+	font-family: Helvetica;
+	text-decoration: none;
+}
+
+p {
+	color: #ffffff;
+	font-family: Helvetica;
+	text-decoration: none;
+}
+
+div.field {
+	font-size: 20px;
+	color: #ffffff;
+	font-family: Helvetica;
+	text-decoration: italic;
+}
+
+.row {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.container-index {
+	float: right;
+}

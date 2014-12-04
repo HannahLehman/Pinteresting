@@ -10,6 +10,11 @@
   <%= @pin.board.name %>
 </p>
 
+<p>
+<strong>Picture</strong>
+<%= image_tag(@pin.image_url, :width => 200) if @pin.image.present? %>
+</p>
+
 <%= image_tag @pin.image, {size: 100} %>
 
 <%= link_to 'Edit', edit_pin_path(@pin) %> |
